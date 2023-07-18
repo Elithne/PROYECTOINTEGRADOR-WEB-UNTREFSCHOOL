@@ -7,7 +7,43 @@
 #EFF5F5: Casi Blanco
 */
 
-* {
-  /* font-family: "Belanosima", sans-serif; */
+body {
+  margin: 0 auto;
+}
+
+p {
   font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Belanosima", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  position: sticky !important;
+  top: 0;
+}
+
+section {
+  padding-top: 3.5em;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 3em;
+}
+
+.fdivs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
