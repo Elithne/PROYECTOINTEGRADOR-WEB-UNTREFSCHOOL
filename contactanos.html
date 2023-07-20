@@ -3,11 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Untref School es un instituto de educación primaria comprometido
+    con el desarrollo integral de nuestros estudiantes.">
+    <meta name="author" content="Giannina Tartaglia">
+    
     <title>Untref School - Contactanos</title>
 
     <!-- CSS Sheet -->
     <link rel="stylesheet" href="styles.css" />
-
+    <link rel="stylesheet" href="styles-form.css">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,13 +19,92 @@
       href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/icon-untref.png"
+    />
   </head>
   <body>
+    <a href="#" class="special"> Subir</a>
+    <!-- NAVEGADOR -->
+    <nav class="navbar">
+      <a href="#"
+        ><img
+          src="img/logo.png"
+          height="40"
+          class="logo"
+          alt="Logo de Untref School"
+      /></a>
+      <div class="navbar-menu">
+        <a class="nav-item" href="index.html">Inicio</a>
+        <a class="nav-item" href="#quienes-somos">Quienes somos</a>
+        <a class="nav-item" href="#elegirnos">¿Por qué elegirnos?</a>
+        <a class="nav-item" href="#propuesta">Propuesta educativa</a>
+        <a class="nav-item" href="#noticias">Últimas noticias</a>
+        <a class="nav-item" href="contactanos.html">Contactanos</a>
+      </div>
+    </nav>
+    <main>
+      <h2>Contactanos</h2>
     <!-- Formulario acá -->
-    <form action="https://formsubmit.co/aredhel.lilium@gmail.com" method="POST">
-      <input type="text" name="name" required />
-      <input type="email" name="email" required />
-      <button type="submit">Send</button>
-    </form>
+    <div class="formulario">
+      <form action="https://formsubmit.co/lilium.aredhel@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://www.linkedin.com">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+    
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" placeholder="Ingrese su correo electrónico" required>
+    
+        <label for="consulta">Consulta:</label>
+        <textarea id="consulta" name="consulta" placeholder="Ingrese su consulta" required></textarea>
+        <button type="submit">ENVIAR</button>
+      </form>
+    </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="impar">
+      <div class="fdivs">
+        <h3 class="ftitles">Redes Sociales</h3>
+        <div class="redes">
+          <a href="http://www.facebook.com"
+            ><img src="img/logo-facebook.png" width="30px"
+          /></a>
+          <a href="http://www.twitter.com"
+            ><img src="img/logo-twitter.png"
+          /></a>
+          <a href="http://www.instagram.com"
+            ><img src="img/logo-instagram.png" width="30px"
+          /></a>
+        </div>
+      </div>
+      <div class="fdivs">
+        <h3 class="ftitles">Instituto</h3>
+        <a
+          href="https://www.google.com/maps/place/Colegio+San+Jos%C3%A9/@-34.607799,-58.400702,16z/data=!4m6!3m5!1s0x95bccaec02681ba1:0x8c4f07cc49529c81!8m2!3d-34.6077986!4d-58.4007022!16s%2Fg%2F1tk9rz8y?hl=es-419&entry=ttu"
+          >Azcuénaga 158, CABA</a
+        >
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8561612330545!2d-58.40328248970581!3d-34.60779857283997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaec02681ba1%3A0x8c4f07cc49529c81!2sColegio%20San%20Jos%C3%A9!5e0!3m2!1ses-419!2sar!4v1689707704916!5m2!1ses-419!2sar"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="fdivs">
+        <h3 class="ftitles">Contacto</h3>
+        <a href="mailto:director@untref.com">E-mail</a>
+        <a href="https://wa.me/+541122334455">Whatsapp</a>
+        <a href="tel:+541122334455">Teléfono</a>
+      </div>
+    </footer>
+  </body>
   </body>
 </html>
