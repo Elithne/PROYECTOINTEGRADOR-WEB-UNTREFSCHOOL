@@ -33,7 +33,7 @@ input,
 textarea {
   font-family: "Poppins", sans-serif;
   width: 100%;
-  padding: 0.7em;
+
   margin-bottom: 0.5em;
   border: 1px solid #1f8a70;
   border-radius: 5px;
@@ -48,11 +48,11 @@ textarea {
 
 button {
   background-color: #181823;
-  border: 3px solid #1f8a70;
+  border: 1px solid #1f8a70;
   border-radius: 5px;
   color: #1f8a70;
   font-family: "Belanosima", sans-serif;
-  padding: 0.5em 0.3em;
+  padding: 0.7em 0.5em;
 }
 
 button:hover {
