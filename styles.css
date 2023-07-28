@@ -207,6 +207,12 @@ footer a:hover {
   }
 }
 
+@media (max-width: 720px) {
+  .nav-item {
+    font-size: 0.6em;
+  }
+}
+
 @media (max-width: 580px) {
   .navbar-menu {
     flex-direction: column;
